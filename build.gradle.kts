@@ -20,7 +20,7 @@ val spigotVersion = "1.20.4-R0.1-SNAPSHOT"
 val slimefunVersion = "RC-37"
 val slimefunTranslationVersion = "e03b01a7b7"
 val guizhanLibVersion = "1.7.6"
-val bstatsVersion = "3.0.2"
+val bstatsVersion = "3.1.0"
 
 dependencies {
     compileOnly("org.spigotmc:spigot-api:${spigotVersion}")
