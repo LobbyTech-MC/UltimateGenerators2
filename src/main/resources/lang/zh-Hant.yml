@@ -1,0 +1,36 @@
+items:
+  #category items
+  _UG2_MAIN:
+    conditions:
+      force-load: true
+  _UG2_MISC:
+    conditions:
+      force-load: true
+  _UG2_MACHINES:
+    conditions:
+      force-load: true
+  _UG2_ELECTRICITY_STORAGE:
+    conditions:
+      force-load: true
+  _UG2_SIMPLE_GENERATORS:
+    conditions:
+      force-load: true
+  _UG2_MODULAR_GENERATORS:
+    conditions:
+      force-load: true
+  #recipe type display items
+  _UG2_CANNOT_CRAFT:
+    conditions:
+      force-load: true
+  _UG2_DIESEL_REFINERY:
+    conditions:
+      force-load: true
+  _UG2_BIOMASS_EXTRACTION_MACHINE:
+    conditions:
+      force-load: true
+  _UG2_BIOFUEL_REFINERY:
+    conditions:
+      force-load: true
+  _UG2_HEAVY_WATER_REFINING_MACHINE:
+    conditions:
+      force-load: true

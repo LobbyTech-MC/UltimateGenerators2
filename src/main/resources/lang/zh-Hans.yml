@@ -98,8 +98,8 @@ items:
       - "&7中级机器"
       - "&8\u21E8 &e⚡ &73 J/t"
     lore-overrides:
-      1: "%sftrlore_Machine_Medium_Machine%" #Do not translate this at all
-      2: "%sftrlore_PowerPerTick_3%" #Do not translate this at all
+      2: "%sftrlore_Machine_Medium_Machine%" #Do not translate this at all
+      3: "%sftrlore_PowerPerTick_3%" #Do not translate this at all
   BIOMASS_BUCKET:
     name: "&r生物质桶"
   BIOFUEL_REFINERY:
