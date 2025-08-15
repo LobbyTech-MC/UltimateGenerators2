@@ -5,27 +5,27 @@ items:
   _UG2_MAIN:
     conditions:
       force-load: true
-    name: "&d终极发电机2" #The addon name, change it to its translated name or keep it as it is
+    name: "&d魔法电力" #The addon name, change it to its translated name or keep it as it is
   _UG2_MISC:
     conditions:
       force-load: true
-    name: "&d终极发电机2 &7- &7杂项"
+    name: "&d魔法电力 &7- &7杂项"
   _UG2_MACHINES:
     conditions:
       force-load: true
-    name: "&d终极发电机2 &7- &9机器"
+    name: "&d魔法电力 &7- &9机器"
   _UG2_ELECTRICITY_STORAGE:
     conditions:
       force-load: true
-    name: "&d终极发电机2 &7- &e电力存储"
+    name: "&d魔法电力 &7- &e电力存储"
   _UG2_SIMPLE_GENERATORS:
     conditions:
       force-load: true
-    name: "&d终极发电机2 &7- &b简易发电机"
+    name: "&d魔法电力 &7- &b简易发电机"
   _UG2_MODULAR_GENERATORS:
     conditions:
       force-load: true
-    name: "&d终极发电机2 &7- &c模块化发电机"
+    name: "&d魔法电力 &7- &c模块化发电机"
   #recipe type display items
   _UG2_CANNOT_CRAFT:
     conditions:
@@ -160,7 +160,7 @@ items:
       - "&r连接并利用附近的强化末影水晶"
       - "&r来生成电力"
       - ""
-      - "&4终极发电机"
+      - "&4魔法电力"
     lore-overrides:
       5: "%sftrlore_Machine_EndGame_Generator%" #Do not translate this at all
   ENDER_CRYSTAL_GENERATOR_BASE:
@@ -282,7 +282,7 @@ items:
       - ""
       - "&9可在夜间发电"
       - ""
-      - "&4终极发电机"
+      - "&4魔法电力"
       - "&8\u21E8 &e⚡ &765536 J 可存储"
       - "&8\u21E8 &e⚡ &72048 J/s (日间)"
       - "&8\u21E8 &e⚡ &71024 J/s (夜间)"
@@ -333,7 +333,7 @@ items:
       - ""
       - "&8\u21E8 &b只有结构完整时才能使用"
       - ""
-      - "&4终极发电机"
+      - "&4魔法电力"
       - "&8\u21E8 &e⚡ &732768 J 可存储"
       - "&8\u21E8 &e⚡ &71536 J/s"
       - "&8\u21E8 &e⚡ &7世界处于雷暴天时生成1.5倍电力"

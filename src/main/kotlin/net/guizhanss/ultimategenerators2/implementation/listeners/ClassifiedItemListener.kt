@@ -61,7 +61,7 @@ class ClassifiedItemListener(plugin: UltimateGenerators2) : Listener {
     private fun generateItem(l: Location, item: ItemStack, fireworkColors: Array<Color>) {
         l.world!!.playSound(l, Sound.UI_TOAST_CHALLENGE_COMPLETE, 1.0f, 1.0f)
         val newItem = l.world!!.dropItemNaturally(l, item)
-        l.world!!.spawnParticle(Particle.EXPLOSION_LARGE, l, 3)
+        l.world!!.spawnParticle(Particle.EXPLOSION_EMITTER, l, 3)
         for (color in fireworkColors) {
             FireworkUtils.launchFirework(l, color)
         }

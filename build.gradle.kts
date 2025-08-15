@@ -16,22 +16,22 @@ repositories {
     maven("https://jitpack.io")
 }
 
-val spigotVersion = "1.20.4-R0.1-SNAPSHOT"
-val slimefunVersion = "RC-37"
+val spigotVersion = "1.21.1-R0.1-SNAPSHOT"
+val slimefunVersion = "master-SNAPSHOT"
 val slimefunTranslationVersion = "e03b01a7b7"
 val guizhanLibVersion = "1.7.6"
 val bstatsVersion = "3.1.0"
 
 dependencies {
     compileOnly("org.spigotmc:spigot-api:${spigotVersion}")
-    compileOnly("com.github.Slimefun:Slimefun4:${slimefunVersion}")
+    compileOnly("com.github.SlimefunGuguProject:Slimefun4:${slimefunVersion}")
     compileOnly("net.guizhanss:SlimefunTranslation:${slimefunTranslationVersion}")
     implementation("net.guizhanss:GuizhanLib-api:${guizhanLibVersion}")
     implementation("org.bstats:bstats-bukkit:${bstatsVersion}")
 }
 
 kotlin {
-    jvmToolchain(17)
+    jvmToolchain(21)
 }
 
 tasks.compileKotlin {
@@ -51,7 +51,7 @@ tasks.shadowJar {
 
 bukkit {
     main = "net.guizhanss.ultimategenerators2.UltimateGenerators2"
-    apiVersion = "1.16"
+    apiVersion = "1.21"
     authors = listOf("ybw0014")
     description = "A Slimefun Addon that adds various types of generators."
     depend = listOf("Slimefun")

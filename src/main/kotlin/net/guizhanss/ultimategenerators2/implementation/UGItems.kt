@@ -244,7 +244,7 @@ object UGItems {
     )
 
     private fun glow(sfItemStack: SlimefunItemStack): SlimefunItemStack {
-        sfItemStack.addUnsafeEnchantment(Enchantment.DURABILITY, 1)
+        sfItemStack.addUnsafeEnchantment(Enchantment.UNBREAKING, 1)
         val im = sfItemStack.itemMeta
         im!!.addItemFlags(ItemFlag.HIDE_ENCHANTS)
         sfItemStack.setItemMeta(im)

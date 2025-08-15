@@ -61,7 +61,7 @@ class EnderCrystalGenerator(
         val loc: Location = menu.location
         CRYSTAL_COUNT.remove(BlockPosition(loc))
         loc.world!!
-            .getNearbyEntities(loc, 4.0, 4.0, 4.0) { entity: Entity -> entity.type == EntityType.ENDER_CRYSTAL }
+            .getNearbyEntities(loc, 4.0, 4.0, 4.0) { entity: Entity -> entity.type == EntityType.END_CRYSTAL }
             .stream()
             .map { obj: Entity -> obj as EnderCrystal }
             .forEachOrdered { crystal: EnderCrystal ->
@@ -92,7 +92,7 @@ class EnderCrystalGenerator(
         // check for ender crystals
 //        BlockPosition basePos = new BlockPosition(l.add(0, -1, 0));
 //        AtomicInteger count = new AtomicInteger(0);
-//        l.getWorld().getNearbyEntities(l, 4D, 4D, 4D, entity -> entity.getType() == EntityType.ENDER_CRYSTAL)
+//        l.getWorld().getNearbyEntities(l, 4D, 4D, 4D, entity -> entity.getType() == EntityType.END_CRYSTAL)
 //            .stream()
 //            .map(EnderCrystal.class::cast)
 //            .forEachOrdered(crystal -> {
