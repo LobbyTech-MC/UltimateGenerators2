@@ -19,14 +19,14 @@ repositories {
 val spigotVersion = "1.21.1-R0.1-SNAPSHOT"
 val slimefunVersion = "master-SNAPSHOT"
 val slimefunTranslationVersion = "e03b01a7b7"
-val guizhanLibVersion = "1.7.6"
+val guizhanLibVersion = "2.3.0"
 val bstatsVersion = "3.1.0"
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:${spigotVersion}")
-    compileOnly("com.github.SlimefunGuguProject:Slimefun4:${slimefunVersion}")
-    compileOnly("net.guizhanss:SlimefunTranslation:${slimefunTranslationVersion}")
-    implementation("net.guizhanss:GuizhanLib-api:${guizhanLibVersion}")
+    implementation("org.spigotmc:spigot-api:${spigotVersion}")
+    implementation("com.github.SlimefunGuguProject:Slimefun4:${slimefunVersion}")
+    implementation("net.guizhanss:SlimefunTranslation:${slimefunTranslationVersion}")
+    implementation("net.guizhanss:GuizhanLibPlugin:${guizhanLibVersion}")
     implementation("org.bstats:bstats-bukkit:${bstatsVersion}")
 }
 
